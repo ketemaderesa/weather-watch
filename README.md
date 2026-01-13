@@ -70,7 +70,3 @@ Location: Chiro, Oromia, Ethiopia
 GitHub: https://github.com/ketemaderesa
 
 ---
-
-If you want, I can also **write a shorter, “portfolio-ready” version** of the README with **animations and badge icons** that looks super professional on GitHub.  
-
-Do you want me to do that?
