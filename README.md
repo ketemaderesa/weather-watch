@@ -1,16 +1,76 @@
-# React + Vite
+# Weather Watch 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Demo:** [https://ketemaderesa.github.io/weather-watch/](https://ketemaderesa.github.io/weather-watch/)
 
-Currently, two official plugins are available:
+A modern, responsive **Weather App** built with **React**, **Tailwind CSS**, and **Vite**, fetching live weather data from the **OpenWeather API**.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Developer:** Ketema Deresa  
+**Location:** Chiro, Oromia, Ethiopia  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Search any city to get current weather 🌍  
+- Displays:
+  - Temperature 🌡️
+  - Feels like temperature 🌡️
+  - Weather description 📝
+  - Humidity 💧
+  - Wind speed 🌬️
+  - Weather icon 🎨
+- Dark Mode toggle 🌙 / ☀️  
+- Mobile responsive 📱  
+- Smooth UI with Tailwind CSS animations  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+- **React 19**  
+- **Vite 7** (fast build & dev server)  
+- **Tailwind CSS 4**  
+- **PostCSS & Autoprefixer**  
+- **Lucide Icons** for beautiful UI icons  
+- **OpenWeather API** for live weather data  
+- **GitHub Pages** for free live deployment  
+
+---
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ketemaderesa/weather-watch.git
+cd weather-watch
+2. Install dependencies
+npm install
+3. Set your OpenWeather API key
+Create a .env file in the root:
+
+VITE_OPENWEATHER_API_KEY=your_api_key_here
+Replace your_api_key_here with your OpenWeather API key.
+
+4. Run locally
+npm run dev
+Open your browser at http://localhost:5173
+
+5. Build for production
+npm run build
+6. Deploy to GitHub Pages
+
+npm run deploy
+Your app will be live at:
+https://ketemaderesa.github.io/weather-watch/
+
+Contact
+Developer: Ketema Deresa
+Location: Chiro, Oromia, Ethiopia
+GitHub: https://github.com/ketemaderesa
+
+---
+
+If you want, I can also **write a shorter, “portfolio-ready” version** of the README with **animations and badge icons** that looks super professional on GitHub.  
+
+Do you want me to do that?
