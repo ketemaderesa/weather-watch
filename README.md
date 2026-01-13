@@ -24,7 +24,6 @@ A modern, responsive **Weather App** built with **React**, **Tailwind CSS**, and
 - Smooth UI with Tailwind CSS animations  
 
 ---
-
 ## Technologies Used
 
 - **React 19**  
